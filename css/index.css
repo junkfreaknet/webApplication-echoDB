@@ -1,0 +1,67 @@
+/**************************************/
+/***   GENERIC START                ***/
+/**************************************/
+/*
+.wrapper_table{
+    display: flex;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table,th,tr,td {
+        border-collapse: collapse;
+        border: solid black;
+    }
+
+.td_numeric {
+    text-align: right;
+}
+/**************************************/
+/***   GENERIC END                  ***/
+/**************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+/*******************************************************************************/
+/**************************************/
+/***   S T A R T                    ***/
+/*** maxmum width 1080px            ***/
+/***   S T A R T                    ***/
+/**************************************/
+
+@media screen and (max-width: 1080px) {
+
+    body {
+
+        font-size: 250%;
+        line-height: 150%;
+        margin: 5%;
+        /*width: 980px;*/
+        /*width: 100%;*/
+        /*line-height: 2em;*/
+        /*margin: 2em;*/
+    }
+
+    table,th,td {
+        border: double red;
+    }
+
+    /***
+    aside { 
+        width: 100%;
+        background-color: rgb(225, 255, 0);
+        border: solid red thick;
+    }
+    ***/
+
+}
+
+/**************************************/
+/***   E N D                        ***/
+/*** maxmum width 1080px            ***/
+/***   E N D                        ***/
+/**************************************/
