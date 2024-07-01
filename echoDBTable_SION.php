@@ -14,7 +14,8 @@
             <?php
 
                 const my_HOST="public.nhumf.tyo2.database-hosting.conoha.io";
-                const my_USER = "nhumf_sion";
+
+                const my_USER = "nhumf_sion_remote";                
                 const my_PASSWORD = "Noriyuki6403";
                 const my_DATABASE="nhumf_sion";
 
@@ -24,7 +25,7 @@
                 if ($my_connection->connect_errno) {
                     die("Connect to database is failed: ". $my_connection->connect_errno);
                 }
-
+                /*const my_USER = "nhumf_sion";*/
                 /*echo("<p>"."success to connect DATABASE"."<p>");*/
 
                 $my_sqlstring = "select * from ".in_table;
